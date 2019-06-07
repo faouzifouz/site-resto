@@ -1,0 +1,23 @@
+@import "_Nav.scss";
+@import '_footer.scss';
+
+body{
+background: url(../img/burger.jpg) no-repeat center fixed;
+background-size: cover;
+}
+.menu{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+li{
+    color: white;
+}
+
+.list-group-item-action{
+    color: aqua;
+}
+img{
+    margin-left:250px ;
+}
+.burger{
+    margin: 0;
+}

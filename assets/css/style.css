@@ -1,0 +1,36 @@
+body { padding: 0; margin: 0; background: url(../img/lidye-300571-unsplash.jpg) no-repeat center fixed; background-size: cover; }
+
+@media only screen and (max-width: 767px) { .nav { position: fixed; z-index: 10; background-color: #245060; -ms-flex-pack: distribute; justify-content: space-around; opacity: 0.8; margin: 0; padding: 0; }
+  .nav .burger { height: 40px; width: auto; }
+  .nav .nav-link { color: white; }
+  .nav .nav-link:hover { background-color: #1c3d49; border-radius: 12px; }
+  .nav .active { color: black; }
+  .nav .active:hover { background-color: #245060; }
+  .flex-column { height: 100%; }
+  .nav02 { display: none; } }
+
+@media only screen and (min-width: 768px) { .nav { position: fixed; z-index: 10; background-color: #245060; -ms-flex-pack: distribute; justify-content: space-around; opacity: 0.80; margin: 0; }
+  .nav .burger { height: 40px; width: auto; }
+  .nav .nav-link { color: white; }
+  .nav .nav-link:hover { background-color: #1c3d49; border-radius: 12px; }
+  .nav .active { color: black; }
+  .nav .active:hover { background-color: #245060; }
+  .flex-sm-row { width: 100%; }
+  .nav01 { display: none; } }
+
+main { font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+main .jumbotron { height: 100%; padding: 10px; text-align: center; background-color: rgba(0, 0, 0, 0.6); color: white; }
+
+main .top { padding: 50px; }
+
+main .panel { background-color: rgba(0, 0, 0, 0.6); color: white; margin-bottom: 30px; }
+
+main .panel .panel-heading { text-align: center; font-size: 30px; }
+
+main .burger2 { margin-top: 150px; margin-bottom: 100px; }
+
+.test { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.test2 { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; margin-right: 10px; text-shadow: #000000  1px 1px, #000000  -1px 1px, #000000  -1px -1px, #000000  1px -1px; }
+/*# sourceMappingURL=style.css.map */

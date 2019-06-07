@@ -1,0 +1,36 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    background: url(../img/lidye-300571-unsplash.jpg) no-repeat center fixed; 
+    background-size: cover;
+}
+@import '_Nav.scss';
+
+main{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    .jumbotron{
+        height: 100%;
+        padding: 10px;
+        text-align: center;
+        background-color:rgba(0,0,0,0.6);
+        color:white;
+    }
+    .top{
+        padding: 50px;
+    }
+    .panel{
+        background-color: rgba(0,0,0,0.6);
+        color:white;
+        margin-bottom: 30px;
+        .panel-heading{
+            text-align: center;
+            font-size: 30px;
+        }
+    }
+    .burger2{
+        margin-top: 150px;
+        margin-bottom: 100px;
+    }
+}
+@import '_footer.scss';

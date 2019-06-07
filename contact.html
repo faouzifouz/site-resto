@@ -1,0 +1,134 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/contact.css" />
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+                                                    <!-- NAV -->
+    <header>
+        <nav class="nav01">
+            <ul class="nav flex-column">
+                <li class="nav-item"><img class="burger" src="./assets/img/logobeburger.png"></li>
+                <li class="nav-item"><a class="nav-link active" href="./index.html"><i class="fas fa-home"></i></a></li>
+                <li class="nav-item"><a class="nav-link" href="./Carte.html"><i class="fas fa-map"></i></a></li>
+                <li class="nav-item"><a class="nav-link" href="./photo.html"><i class="fas fa-image"></i></a></li>
+                <li class="nav-item"><a class="nav-link" href="./Restaurant.html"><i class="fas fa-utensils"></i></a></li>
+                <li class="nav-item"><a class="nav-link active" href="./contact.html"><span class="fas fa-envelope"></span></a></li>
+            </ul>
+            </nav>
+
+        <nav class="nav02">
+            <ul class="nav flex-sm-row">
+                <li class="nav-item"><img class="burger" src="./assets/img/logobeburger.png"></li>
+                <li class="nav-item"><a class="nav-link" href="./index.html"><i class="fas fa-home"></i> Accueil</a></li>
+                <li class="nav-item"><a class="nav-link" href="./Carte.html"><i class="fas fa-map"></i> Carte</a></li>
+                <li class="nav-item"><a class="nav-link" href="./photo.html"><i class="fas fa-image"></i> Photos</a></li>
+                <li class="nav-item"><a class="nav-link" href="./Restaurant.html"><i class="fas fa-utensils"></i> Restaurants</a></li>
+                <li class="nav-item"><a class="nav-link active" href="./contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+                                                    <!-- THE FORM -->       
+        <main>
+            <div class="container-fluid w-auto">
+                <div class="container w-75">
+
+                <form class="form ">
+                    <h2>Contact</h2>
+                        <div class="form-group">
+                            <label for="name">Nom</label>
+                            <input type="text" id="name" class="form-control"placeholder="Votre Nom">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="first-name">Prénom</label>
+                            <input type="text" id="first-name" class="form-control" placeholder="Votre Prénom">
+                        </div>
+            
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" id="email" class="form-control" placeholder="Votre Email">
+                        </div>
+                        
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Objet de votre message
+                            </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Objet 1</a>
+                                    <a class="dropdown-item" href="#">Objet 2</a>
+                                    <a class="dropdown-item" href="#">Objet 3</a>
+                                </div>
+                        </div>
+
+                     
+                    
+                    
+                        <div class="form-group">
+                                <label for="comment">Commentaire</label>
+                                <textarea type="text" id="comment" class="form-control" placeholder="Votre Commentaire"></textarea>
+                            </div> 
+                        <a href="#"class="btn btn-primary btn-block"><span class="glyphicon glyphicon glyphicon-send"></span> Envoyer</a>
+                </form>
+                    </div>  
+                </div>
+            </div>
+        </main>
+
+                                                                <!-- Footer -->
+<footer class="page-footer font-small cyan darken-3 text-white">
+
+        <!-- Footer Elements -->
+        <div class="container">
+    
+            <!-- Grid row-->
+            <div class="row">
+    
+                <!-- Grid column -->
+                <div class="col-md-12 py-0 test">
+                    <div class="mb-5 flex-center">
+    
+                        <!-- Facebook -->
+                        <a class="fb-ic"  href="#">
+                            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!-- Twitter -->
+                        <a class="tw-ic"  href="#">
+                            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                       
+                        <!--Instagram-->
+                        <a class="ins-ic" href="#">
+                            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                      
+                    </div>
+                </div>
+                <!-- Grid column -->
+    
+            </div>
+            <!-- Grid row-->
+    
+        </div>
+        <!-- Footer Elements -->
+    
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 mb-1 test2">© 2019 Copyright
+            <a href="https://mdbootstrap.com/education/bootstrap/"> TEAM_BBurger.com</a>
+        </div>
+        <!-- Copyright -->
+    
+    </footer>
+</body>
+</html>
